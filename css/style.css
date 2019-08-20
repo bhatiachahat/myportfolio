@@ -114,12 +114,11 @@ border:none;
    .about-block {
    
    
-    left: 397px;
+    left: 382px;
     transition: all 0.5s;
     top: -145px;
     border:1px solid rgba(255,255,255,0.5);
-    /* height:60vh;
-    width:30vw; */
+  
     width: 430px;
     height: 300px;
   position: absolute;
@@ -189,8 +188,8 @@ border:none;
 .portfolio-block {
    
    
-    left: 607px;
-    top: 91px;
+    left: 600px;
+    top: 100px;
     border:1px solid rgba(255,255,255,0.5);
    
     transition: all 0.5s;
@@ -285,11 +284,11 @@ border:none;
 }
 .contact-block {
    
-    right:-68px;
+    right:20px;
      top: 44px;
      border:1px solid rgba(255,255,255,0.5);
-     height:65vh;
-     width:30vw;
+     height:400px;
+     width:430px;
    position: absolute;
    transition: all 0.5s;
    
@@ -352,8 +351,8 @@ border:none;
 .blog-block {
    
    
-    left: 858px;
-    top: 465px;
+    left: 835px;
+    top: 491px;
     border:1px solid rgba(255,255,255,0.5);
      
     width: 430px;
@@ -605,8 +604,8 @@ h2.contact.menu-item:before {
 }
 .name-block{
     border:1px solid rgba(255,255,255,0.5);
-    height:90vh;
-    width:50vw;
+    height:700px;
+    width:750px;
   position: absolute;
   left: -15vw;
  top: 8vh;
@@ -623,9 +622,19 @@ h2.contact.menu-item:before {
 }
 
 .name-block.reverse {
-    transform:rotate(-34deg);
+    /* transform:rotate(-34deg); */
     
     
+    display: table;
+    position: absolute;
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    width: 30%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border: none;
     display: table;
 }
 .name-block-container.reverse {
